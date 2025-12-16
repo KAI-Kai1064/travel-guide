@@ -1,11 +1,12 @@
-/** @type {import('tailwindcss').Config} */
-export default {
+// C:\Users\qweio\travel-guide\tailwind.config.js
+module.exports = {
   content: [
     "./index.html",
-    // 必須有這行，告訴 Tailwind 掃描 src 裡面的 React 程式碼
+    // 確保路徑包含所有 JSX/TSX 檔案
     "./src/**/*.{js,ts,jsx,tsx}", 
   ],
   theme: {
     extend: {},
   },
   plugins: [],
+}

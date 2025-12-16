@@ -1,8 +1,7 @@
 // C:\Users\qweio\travel-guide\postcss.config.js
-export default {
+module.exports = {
   plugins: {
-    // 之前是 tailwindcss，現在必須改為 @tailwindcss/postcss
-    '@tailwindcss/postcss': {}, 
+    '@tailwindcss/postcss': {}, // 使用這個新版名稱
     autoprefixer: {},
   },
 }
