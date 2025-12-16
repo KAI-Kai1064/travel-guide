@@ -2,7 +2,7 @@
 module.exports = {
   content: [
     "./index.html",
-    // 確保路徑包含所有 JSX/TSX 檔案
+    // 確保掃描所有 src 檔案
     "./src/**/*.{js,ts,jsx,tsx}", 
   ],
   theme: {
